@@ -104,6 +104,12 @@
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Aurora.Callrecord.Service.Interfaces\Aurora.Callrecord.Service.Interfaces.csproj">
+      <Project>{d8dfa605-4ca2-4e53-ae52-c988b0dbbefa}</Project>
+      <Name>Aurora.Callrecord.Service.Interfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

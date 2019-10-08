@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aurora.Callrecord.WebApi", "aurora.callrecord\Aurora.Callrecord.WebApi.csproj", "{2FA59918-F253-4E04-A5F3-304DBBFDBF28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aurora.Callrecord.Service", "Aurora.Callrecord.Service\Aurora.Callrecord.Service.csproj", "{97D2F0A9-1D5B-4B3D-BD58-01DC8ABA00F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aurora.Callrecord.Service.Interfaces", "Aurora.Callrecord.Service.Interfaces\Aurora.Callrecord.Service.Interfaces.csproj", "{D8DFA605-4CA2-4E53-AE52-C988B0DBBEFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aurora.Callrecord.Repository", "Aurora.Callrecord.Repository\Aurora.Callrecord.Repository.csproj", "{9D172DA8-857A-4BF7-9254-9C608BCA67AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aurora.Callrecord.Repository.Interfaces", "Aurora.Callrecord.Repository.Interfaces\Aurora.Callrecord.Repository.Interfaces.csproj", "{6A8EF018-04FA-419F-8D78-2D05B7B7EC31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aurora.Callrecord.Tests", "Aurora.Callrecord.Tests\Aurora.Callrecord.Tests.csproj", "{741F96E0-62AB-4FBF-8D5C-15D59ADBFF55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FA59918-F253-4E04-A5F3-304DBBFDBF28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FA59918-F253-4E04-A5F3-304DBBFDBF28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FA59918-F253-4E04-A5F3-304DBBFDBF28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FA59918-F253-4E04-A5F3-304DBBFDBF28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97D2F0A9-1D5B-4B3D-BD58-01DC8ABA00F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D2F0A9-1D5B-4B3D-BD58-01DC8ABA00F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D2F0A9-1D5B-4B3D-BD58-01DC8ABA00F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D2F0A9-1D5B-4B3D-BD58-01DC8ABA00F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8DFA605-4CA2-4E53-AE52-C988B0DBBEFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8DFA605-4CA2-4E53-AE52-C988B0DBBEFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8DFA605-4CA2-4E53-AE52-C988B0DBBEFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8DFA605-4CA2-4E53-AE52-C988B0DBBEFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D172DA8-857A-4BF7-9254-9C608BCA67AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D172DA8-857A-4BF7-9254-9C608BCA67AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D172DA8-857A-4BF7-9254-9C608BCA67AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D172DA8-857A-4BF7-9254-9C608BCA67AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A8EF018-04FA-419F-8D78-2D05B7B7EC31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A8EF018-04FA-419F-8D78-2D05B7B7EC31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A8EF018-04FA-419F-8D78-2D05B7B7EC31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A8EF018-04FA-419F-8D78-2D05B7B7EC31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{741F96E0-62AB-4FBF-8D5C-15D59ADBFF55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{741F96E0-62AB-4FBF-8D5C-15D59ADBFF55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{741F96E0-62AB-4FBF-8D5C-15D59ADBFF55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{741F96E0-62AB-4FBF-8D5C-15D59ADBFF55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B84DB69D-159F-49DC-97C5-E878CA248F81}
+	EndGlobalSection
+EndGlobal
