@@ -1,11 +1,11 @@
 using System.Web.Http;
 using WebActivatorEx;
-using aurora.callrecord;
+using Aurora.Callrecord;
 using Swashbuckle.Application;
 
 [assembly: PreApplicationStartMethod(typeof(SwaggerConfig), "Register")]
 
-namespace aurora.callrecord
+namespace Aurora.Callrecord
 {
     public class SwaggerConfig
     {
@@ -101,7 +101,7 @@ namespace aurora.callrecord
                         // those comments into the generated docs and UI. You can enable this by providing the path to one or
                         // more Xml comment files.
                         //
-                        c.IncludeXmlComments($@"{System.AppDomain.CurrentDomain.BaseDirectory}\bin\aurora.callrecord.xml");
+                        c.IncludeXmlComments($@"{System.AppDomain.CurrentDomain.BaseDirectory}\bin\Aurora.Callrecord.xml");
 
                         // Swashbuckle makes a best attempt at generating Swagger compliant JSON schemas for the various types
                         // exposed in your API. However, there may be occasions when more control of the output is needed.

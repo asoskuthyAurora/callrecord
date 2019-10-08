@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 
-namespace aurora.callrecord
+namespace Aurora.Callrecord
 {
     public static class WebApiConfig
     {
